@@ -235,18 +235,18 @@ footer p{
             -webkit-text-stroke: #623207 2px;
     }
     .cardapio .content .produto{
-        margin: 2rem;
+        margin: 0.25rem;
         font-family: 'Poppins';
         .titulo{
             color: #623207;
-            font-size: 26px;
+            font-size: 16px;
         }
         p{
-            font-size: 16px;
+            font-size: 12px;
         }
     }
     .image img{
         width: 300px;
-        display:flex;
+        margin-left: -60px;
     }
 }
