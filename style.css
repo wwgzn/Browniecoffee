@@ -190,10 +190,15 @@ footer p{
     bottom: 20px;
 }
 @media (max-width: 900px){
+    *{
+        max-width: 400px;
+        
+    }
     nav{
         display:flex;
         .nav-link{
             gap: 2rem;
+
 
         }
         .link a{
@@ -245,8 +250,8 @@ footer p{
             font-size: 12px;
         }
     }
-    .image img{
+    header .image{
         width: 300px;
-        margin-left: -60px;
+        margin: 1rem;
     }
 }
